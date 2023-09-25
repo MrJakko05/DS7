@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 5.2</title>
+</head>
+<body>
+    Ejemplo de subida de archivos al servidor web
+    <br/><br/>
+    <form action="lab52.php" method="post" enctype="multipart/form-data">
+        <label for="nombre_archivo_cliente">
+            Selecciona una imagen (jpg, jpeg, gif, png, máx. 1MB):
+        </label>        
+        
+        <input 
+            type="file" 
+            name="nombre_archivo_cliente" 
+            accept=".jpg, .jpeg, .gif, .png"
+            size="1024"
+            required
+        />
+        <br/><br/>
+        
+        <input type="submit" name="enviar" value="Enviar" />
+    </form>
+</body>
+</html>
