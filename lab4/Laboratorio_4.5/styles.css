@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 18px;
+    white-space: pre-wrap;
+}
+
+a {
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
